@@ -91,11 +91,13 @@ The following scripts help ensure that the code stays clean and error-free:
 - **`composer test`**: Runs a suite of tests to ensure the application works as expected.
 - **`composer fix:test`**: Runs both the fixup and tests in one script.
 
-You can find all the custom scripts included in the `composer.json` file:
+You can find all the custom scripts included in the `composer.json` file.
+
 The whole test suite is executed as part of the auto-deploy process to ensure the application is stable before deploying to production.
 
 ### Setup
 The `composer setup` script quickly sets up the Laravel basic configurations and installs necessary dependencies.
+
 This script ensures that the necessary packages are installed and that the environment is ready for development.
 
 ### Deployment Workflow
@@ -103,7 +105,9 @@ This script ensures that the necessary packages are installed and that the envir
 
 ### Action Pattern / Command Pattern with Dependency Injection
 This project leverages the **Action Pattern** (Command Pattern) extensively, using **Dependency Injection (DI)** to promote clean, scalable, and maintainable code.
+
 The **Command Pattern** encapsulates actions as objects, decoupling the logic execution from the request. Each command is responsible for executing a specific task, and DI is used to inject necessary services, enhancing testability and flexibility.
+
 The **FATLL stack** (Flux Pro, Alpine.js, TailwindCSS, Laravel, Livewire) integrates seamlessly with this pattern, allowing for clear separation of concerns and effective management of actions across the application. DI ensures all dependencies are automatically resolved, making it easy to manage complex workflows and actions.
 
 ## License
