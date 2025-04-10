@@ -61,6 +61,24 @@ An opinionated Laravel FATLL stack website base. [Live Demo](https://fatll-stert
 
 2. Simply push to the `production` branch on Github.
 
+**NOTE** You might need to setup custom deploy commands, here are some examples of deplyment settings on Laravel Cloud:
+
+**Build Commands:**
+```sh
+composer config http-basic.composer.fluxui.dev my@email.com my-super-secret-flux-key
+composer install --no-dev
+
+npm install -g bun
+bun install
+bun run build
+```
+
+**Deploy Commands:**
+```sh
+php artisan migrate --force
+php artisan optimize
+```
+
 ## Technologies
 This project uses various technologies and tools for development, testing, and deployment automation. Here are the key components:
 
