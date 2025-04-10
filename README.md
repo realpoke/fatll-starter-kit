@@ -59,7 +59,7 @@ An opinionated Laravel FATLL stack website base. [Live Demo](https://fatll-stert
 ## Deployment to Laravel Cloud
 1. Make sure all tests pass.
 
-2. Simply make sure tests pass and push to the `production` branch on Github.
+2. Simply push to the `production` branch on Github.
 
 ## Technologies
 This project uses various technologies and tools for development, testing, and deployment automation. Here are the key components:
