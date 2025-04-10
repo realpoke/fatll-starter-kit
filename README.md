@@ -79,6 +79,8 @@ php artisan migrate --force
 php artisan optimize
 ```
 
+**NOTE** Also remember to change the Git branch to production in the general settings!
+
 ## Technologies
 This project uses various technologies and tools for development, testing, and deployment automation. Here are the key components:
 
