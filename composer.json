@@ -1,11 +1,15 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/livewire-starter-kit",
+    "name": "realpoke/fatll-starter-kit",
     "type": "project",
-    "description": "The official Laravel starter kit for Livewire.",
+    "description": "An un-official Laravel starter kit for the FATLL stack.",
     "keywords": [
         "laravel",
-        "framework"
+        "framework",
+        "livewire",
+        "alpinejs",
+        "fluxui",
+        "tailwindcss"
     ],
     "license": "MIT",
     "require": {
